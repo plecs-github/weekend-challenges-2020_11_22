@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(116, 142, 153)
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.converter-body {
+    background-color: rgb(177, 84, 84);
+    width: 350px;
+    height: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb (255,255,255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(27, 26, 26);
+}
+
+p {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    }
+
+button {
+    width: 124px;
+    height: 40px;
+    margin: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(66, 34, 34);
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+button:hover {
+   box-shadow: 2px 2px 5px rgb(0, 0, 0);
+   color:rgb(231, 25, 25);
+   
+}
+.ftc {
+    width: 100px;
+}
+
+.sum-div {
+   background-color: rgb(195, 204, 211); 
+   height: 45px;
+   font-size: 40px;
+   margin-bottom: 30px;
+}
