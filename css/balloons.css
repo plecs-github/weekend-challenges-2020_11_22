@@ -1,0 +1,73 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase ;
+}
+
+p {
+    font-size: 25px;
+    text-align: center;    
+}
+
+.balloon {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    }
+
+.no-balloons {
+    font-size:100px;
+    color: red;
+    text-align: center;
+    display: none;
+    margin-top: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;  
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.blue {
+    background-color: rgb(6, 6, 253);
+    color: rgb(6, 6, 253);
+}
+.red {
+    background-color: rgb(247, 4, 4);
+    color:  rgb(247, 4, 4);
+}
+.yellow {
+    background-color: rgb(248, 248, 7);
+    color:  rgb(248, 248, 7);
+}
+.purple {
+    background-color: rgb(158, 8, 158);
+    color: rgb(158, 8, 158);
+}
+.green {
+    background-color: rgb(11, 161, 11);
+    color: rgb(11, 161, 11);
+}
+.pink {
+    background-color: rgb(245, 141, 159);
+    color: rgb(245, 141, 159);
+}
+.orange {
+    background-color: orange;
+    color: orange;
+}

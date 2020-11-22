@@ -18,7 +18,7 @@ h2 {
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-flaw: row wrap;
     flex-direction: row;
     justify-content: center;
     }
